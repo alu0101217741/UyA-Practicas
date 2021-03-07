@@ -12,6 +12,8 @@
 
 ## Descripción
 
-Este repositorio contiene las prácticas realizadas en la asignatura de Usabilidad y Accesibilidad.
+Este repositorio contiene las prácticas realizadas en la asignatura de Usabilidad y Accesibilidad. Para ver las tareas que se han hecho para cada uno de los seminarios acceder a otro repositorio haciendo clic [aquí](https://github.com/alu0101217741/UyA-Seminarios.git).
 
 ## Índice
+
+* [Práctica Uso del navegador para el desarrollo web](https://github.com/alu0101217741/UyA-Practicas/tree/main/Uso%20del%20navegador%20para%20el%20desarrollo%20web)
