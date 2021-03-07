@@ -6,7 +6,7 @@ Esta práctica consiste en buscar información en la página web [miCita previa]
 
 ## 2. Cuestiones
 
-* ### Qué peticiones desencadena la consulta.
+* ### ¿Qué peticiones desencadena la consulta?
 
 Las peticiones que provoca la consulta a la página web son las que se encuentran en la tabla de solicitudes del panel **Network** (Chrome) o **Red** (Firefox) los cuales enumeran todos los recursos recuperados. A continuación, se muestran las imágenes de las peticiones:
 
@@ -22,7 +22,7 @@ Cabe destacar que la petición principal es citasalud/ la cual provoca que se de
 
 Como se puede observar en las imágenes anteriores los paneles Network (Chrome) y Red (Firefox) registran información sobre cada operación de red en una página, incluidos datos de tiempo detallados, encabezados de solicitud y respuesta HTTP, cookies y más.
 
-* **¿Qué tipo de petición estás realizando?**
+* ### ¿Qué tipo de petición estás realizando?
 
 La petición realizada es de tipo GET, por tanto, esta petición sólo debe recuperar datos.
 
@@ -36,7 +36,7 @@ La petición realizada es de tipo GET, por tanto, esta petición sólo debe recu
 
 Para saber el tipo de petición he seleccionado el recurso citasalud/ y accedido a la pestaña Headers en Chrome y Cabeceras en Firefox. En  cada una de estas pestañas se muestra más información relevante, por ejemplo, el código de estado de respuesta y la IP del servidor.
 
-* **Qué código de estatus devuelve.**
+* ### Qué código de estatus devuelve.
 
 El código de estatus es el 200 OK por lo que la petición ha tenido éxito y el recuso ha sido recuperado correctamente.
 
@@ -48,7 +48,7 @@ El código de estatus es el 200 OK por lo que la petición ha tenido éxito y el
 
 ![Codigo de estatus en Firefox](img/Firefox/codigo_estatus.png)
 
-* **Qué DNS tiene el servidor.**
+* ### ¿Qué DNS tiene el servidor?
 
 El sistema de nombres de dominio (DNS) es un sistema de nomenclatura estándar que asigna un nombre lógico a una dirección IP. En este caso el DNS del servidor es www3.gobiernodecanarias.org.
 
@@ -60,3 +60,14 @@ El sistema de nombres de dominio (DNS) es un sistema de nomenclatura estándar q
 
 ![DNS en Firefox](img/Firefox/dns.png)
 
+* ### ¿Qué IP tiene tiene el servidor?
+
+La IP del servidor es `93.188.137.126:443`.
+
+**Chrome:**
+
+![IP servidor en Chrome](img/Chrome/ip_servidor.png)
+
+**Firefox:**
+
+![IP servidor en Firefox](img/Firefox/ip_servidor.png)
