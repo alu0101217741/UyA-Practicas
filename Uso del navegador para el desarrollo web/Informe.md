@@ -100,11 +100,35 @@ En `Accept-Language` dentro de la cabecera de petición se indican los idiomas q
 
 Para obtener los recursos escritos en JavaScript he seleccionado en los filtros la opción JS y he elegido uno de los que aparecían. Un ejemplo de línea de código JavaScript es la que se muestra a continuación:
 
+**Chrome:**
+
 ![Código JavaScript](img/Chrome/codigo_javascript.png)
+
+**Firefox:**
+
+![Codigo JavaScript](img/Firefox/codigo_javascript.png)
 
 * ### Alguna línea de código CSS que se aplique.
 
 En este caso en los filtros he seleccionado la opción CSS, dentro del recurso he elegido como ejemplo el siguiente fragmento de código.
 
+**Chrome:**
+
 ![Código CSS](img/Chrome/codigo_css.png)
+
+**Firefox:**
+
+![Codigo CSS](img/Firefox/codigo_css.png)
+
+* ### Alguna línea de código HTML que se aplique.
+
+Para conseguir alguna línea de código HTML he seleccionado el recurso citasalud y accedido a la pestaña Response en Chrome y a Respuesta en Firefox, la línea que he elegido es la que se muestra a continuación:
+
+**Chrome:**
+
+![Codigo HTML](img/Chrome/codigo_html.png)
+
+**Firefox:**
+
+![Codigo HTML](img/Firefox/html.png)
 
