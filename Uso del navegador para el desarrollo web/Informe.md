@@ -132,3 +132,8 @@ Para conseguir alguna línea de código HTML he seleccionado el recurso citasalu
 
 ![Codigo HTML](img/Firefox/html.png)
 
+## 3. Conclusión
+
+Esta práctica nos ha permitido conocer el conjunto de herramientas de desarrollo web que están integradas directamente en los navegadores Chrome y Firefox. Además, con las diferentes cuestiones planteadas, hemos aprendido como utilizar estas herramientas para buscar información relevante a la hora de crear sitios web y, hemos podido ver la manera en la que se aplican los conceptos enseñados en la “Introducción a la Web” en el propio navegador. Por todo esto, consideramos que la práctica es muy interesante porque muestra el manejo de los navegadores desde el punto de vista del desarrollo web.
+
+
