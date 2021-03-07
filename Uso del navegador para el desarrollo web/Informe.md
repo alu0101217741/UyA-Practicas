@@ -102,3 +102,9 @@ Para obtener los recursos escritos en JavaScript he seleccionado en los filtros 
 
 ![Código JavaScript](img/Chrome/codigo_javascript.png)
 
+* ### Alguna línea de código CSS que se aplique.
+
+En este caso en los filtros he seleccionado la opción CSS, dentro del recurso he elegido como ejemplo el siguiente fragmento de código.
+
+![Código CSS](img/Chrome/codigo_css.png)
+
