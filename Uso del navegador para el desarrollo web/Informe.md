@@ -95,3 +95,10 @@ En `Accept-Language` dentro de la cabecera de petición se indican los idiomas q
 **Firefox:**
 
 ![Idiomas en Firefox](img/Firefox/idiomas.png)
+
+* ### Alguna línea de código JavaScript.
+
+Para obtener los recursos escritos en JavaScript he seleccionado en los filtros la opción JS y he elegido uno de los que aparecían. Un ejemplo de línea de código JavaScript es la que se muestra a continuación:
+
+![Código JavaScript](img/Chrome/código_javascript.png)
+
