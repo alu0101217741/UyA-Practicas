@@ -10,10 +10,28 @@ Esta práctica consiste en buscar información en la página web [miCita previa]
 
 Las peticiones que provoca la consulta a la página web son las que se encuentran en la tabla de solicitudes del panel **Network** (Chrome) o **Red** (Firefox) los cuales enumeran todos los recursos recuperados. A continuación, se muestran las imágenes de las peticiones:
 
-* Chrome:
+* **Chrome:**
 
-* Firefox:
+![Peticiones en Chrome](img/Chrome/peticiones_realizadas.png)
+
+* **Firefox:**
+
+![Peticiones en Firefox](img/Firefox/peticiones_realizadas.png)
 
 Cabe destacar que la petición principal es citasalud/ la cual provoca que se desencadenen el resto de las peticiones.
 
 Como se puede observar en las imágenes anteriores los paneles Network (Chrome) y Red (Firefox) registran información sobre cada operación de red en una página, incluidos datos de tiempo detallados, encabezados de solicitud y respuesta HTTP, cookies y más.
+
+* **¿Qué tipo de petición estás realizando?**
+
+La petición realizada es de tipo GET, por tanto, esta petición sólo debe recuperar datos.
+
+* **Chrome:**
+
+![Peticiones en Chrome](img/Chrome/tipo_peticion.png)
+
+* **Firefox:**
+
+![Peticiones en Firefox](img/Firefox/tipo_peticion.png)
+
+Para saber el tipo de petición he seleccionado el recurso citasalud/ y accedido a la pestaña Headers en Chrome y Cabeceras en Firefox. En  cada una de estas pestañas se muestra más información relevante, por ejemplo, el código de estado de respuesta y la IP del servidor.
