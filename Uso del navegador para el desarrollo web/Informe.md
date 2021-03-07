@@ -6,7 +6,7 @@ Esta práctica consiste en buscar información en la página web [miCita previa]
 
 ## 2. Cuestiones
 
-* **Qué peticiones desencadena la consulta**
+* ### Qué peticiones desencadena la consulta.
 
 Las peticiones que provoca la consulta a la página web son las que se encuentran en la tabla de solicitudes del panel **Network** (Chrome) o **Red** (Firefox) los cuales enumeran todos los recursos recuperados. A continuación, se muestran las imágenes de las peticiones:
 
@@ -47,3 +47,16 @@ El código de estatus es el 200 OK por lo que la petición ha tenido éxito y el
 **Firefox:**
 
 ![Codigo de estatus en Firefox](img/Firefox/codigo_estatus.png)
+
+* **Qué DNS tiene el servidor.**
+
+El sistema de nombres de dominio (DNS) es un sistema de nomenclatura estándar que asigna un nombre lógico a una dirección IP. En este caso el DNS del servidor es www3.gobiernodecanarias.org.
+
+**Chrome:**
+
+![DNS en Chrome](img/Chrome/dns.png)
+
+**Firefox:**
+
+![DNS en Firefox](img/Firefox/dns.png)
+
