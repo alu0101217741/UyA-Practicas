@@ -71,3 +71,16 @@ La IP del servidor es `93.188.137.126:443`.
 **Firefox:**
 
 ![IP servidor en Firefox](img/Firefox/ip_servidor.png)
+
+* ### ¿La página tiene alguna cookie?, ¿Cuáles?
+
+La página sí tiene cookies y son las que se muestran en las siguientes imágenes:
+
+**Chrome:**
+
+![Cookies en Chrome](img/Chrome/cookies.png)
+
+**Firefox:**
+
+![Cookies en Firefox](img/Firefox/cookies.png)
+
