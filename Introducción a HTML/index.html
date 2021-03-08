@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"> 
+        <title> Gestión del Tiempo </title> 
+    </head>
+    <body>
+	<div>
+		<div>
+			<header>
+			<p align="center"><img src="https://cdn.discordapp.com/attachments/816030032098099211/818290988182536242/ull.png" alt="Logo de la ULL" width="1500" height="100"></p>
+			</header>
+		</div>
+		<div>
+			<h1>¡Bienvenido!</h1>
+			<h2>Gestión del tiempo de estudio</h2>
+			<p> La gestión del tiempo es el proceso de organizar, dividir y planificar su tiempo entre actividades específicas. La buena gestión del tiempo permite trabajar de manera más eficiente gastando menos horas y recursos.
+				Las herramientas eficaces de gestión de tiempo pueden ayudarte a hacer más en menos tiempo.</p>
+			<h2>Uso de la aplicación</h2>
+			<p>Esta aplicación hace que el seguimiento del tiempo sea mucho más fácil y mantiene tu jornada organizada. Permite el seguimiento diario de tareas/prácticas/seminarios
+				para comprobar el rendimiento y sobre todo, permite optimizar el tiempo de estudio, llevando las asignaturas al día.</p>
+		</div>
+		<div>
+			<h2> Formulario de Registro</h2>
+			<form action="" method="post" class="form">
+			<fieldset>
+				<legend>Información Personal</legend>
+				<div>
+					<strong><label for="name">Nombre:</label></strong>
+					<input type="text" name="name" id="name" required> 
+				</div>
+				<br>
+				<div>
+					<strong><label for="edad">Edad:</label></strong>
+					<input type="text" name="edad" id="edad" required>
+				</div>
+				<br>
+				<div>
+					<strong><label for="Género" >Género</label></strong>
+					<input type="radio" id="hombre" name="genero" value="hombre"
+						checked>
+					<label for="hombre">Hombre</label>
+					<input type="radio" id="mujer" name="genero" value="hombre"
+						checked>
+					<label for="mujer">Mujer</label>
+				</div>
+				<br>    
+				<div>
+					<strong><label for="estudios">Estudios Universitarios:</label></strong>
+					<select name="Grado Universitario">
+						<option value="1">Ingeniería Informática</option>
+						<option value="2">Matemáticas</option>
+						<option value="3">Derecho</option>
+						<option value="4">Historia del Arte</option>
+						<option value="5">Educación infantil</option>
+					</select>
+				</div>
+				<br>
+				<div>
+					<strong><label for="Curso">Curso(s):</label></strong>
+					<br>
+					<label><input type="checkbox" id="curso1" value="curso_1"> 1º</label><br>
+					<input type="checkbox" id="curso2" value="curso_2"> <label for="curso2">2º</label><br>
+					<input type="checkbox" id="curso3" value="curso_3"> <label for="curso3">3º</label><br>
+					<input type="checkbox" id="curso4" value="curso_4"> <label for="curso4">4º</label>
+				<br>
+				<br>
+					<strong><label for="email">Email: </label></strong>
+					<input type="email" name="email" id="email" required>
+					<strong><label for="teléfono">Teléfono: </label></strong>
+					<input type="text" name="teléfono" id="teléfono" required>
+				</div>
+			</fieldset>
+			<div>
+				<fieldset>
+					<legend>Registro</legend>
+					<div>
+						<strong><label for="nombreusuario">Nombre de Usuario:</label></strong>
+						<input type="text" name="nombreusuario" id="nombreusuario" size="15" required>
+						<strong><label for="contraseña">Contraseña:</label></strong>
+						<input type="password" name="contraseña" id="nombreusuario" pattern="[a-zA-Z0-9]{6,15}" title="Una contraseña válida debe estar compuesta por letras y/o números y tener una longitud entre 6 y 15 caracteres" required>
+						<em>(Una contraseña válida debe estar compuesta por letras y/o números y tener una longitud entre 6 y 15 caracteres)</em>
+					</div>
+					<br>
+					<div>
+						<strong><label for="¿Qué esperas de la aplicación?">¿Qué esperas de la aplicación?</label></strong>
+						<br>
+						<br>
+						<textarea name="observacion" rows="10" cols="25">Escribe</textarea>
+					</div>
+				</fieldset>
+			</div>
+			<div>
+				<br><br>
+					<input type="submit" value="Registrarse">
+			</div>
+			</form>
+		</div>  
+		<div>
+			<table width = "800" border="1" bgcolor="#dbbeec">
+				<caption> <h2>Horario de clase</h2> </caption>
+				<tr>	
+					<td rowspan = “1” scope="row"><strong >Horario<strong></td>
+					<td rowspan = “1” scope="row"><strong>Lunes</strong></td>
+					<td rowspan = “1” scope="row"><strong>Martes</strong></td>
+					<td rowspan = “1” scope="row"><strong>Miércoles</strong></td>
+					<td rowspan = “1” scope="row"><strong>Jueves</strong></td>
+					<td rowspan = “1” scope="row"><strong>Viernes</strong></td>
+				</tr>
+				<tr>	
+					<td rowspan = “1” scope="row"><strong>9:30-10:25 </strong></td>
+					<td rowspan = “1” scope="row">DSI / UYA </td>
+					<td rowspan = “1” scope="row">SSI / UYA </td>
+					<td rowspan = “1” scope="row">DSI / SSI </td>
+					<td rowspan = “1” scope="row">DSI / SSI / UYA </td>
+					<td rowspan = “1” scope="row"> </td>
+				</tr>
+				<tr>	
+					<td rowspan = “1” scope="row"><strong>10:30-11:25 </strong></td>
+					<td rowspan = “1” scope="row">DSI / UYA </td>
+					<td rowspan = “1” scope="row">SSI / UYA </td>
+					<td rowspan = “1” scope="row">DSI / SSI </td>
+					<td rowspan = “1” scope="row">DSI / SSI / UYA </td>
+					<td rowspan = “1” scope="row">RDC TI </td>
+				</tr>
+				<tr>	
+					<td rowspan = “1” scope="row"><strong>12:00-12:55 </strong></td>
+					<td rowspan = “1” scope="row">SSI </td>
+					<td rowspan = “1” scope="row">DSI </td>
+					<td rowspan = “1” scope="row">UYA </td>
+					<td rowspan = “1” scope="row">RDC TI </td>
+					<td rowspan = “1” scope="row">RDC TI </td>
+				</tr>
+				<tr>	
+					<td rowspan = “1” scope="row"><strong>13:00-13:55 </strong></td>
+					<td rowspan = “1” scope="row">SSI </td>
+					<td rowspan = “1” scope="row">DSI </td>
+					<td rowspan = “1” scope="row">UYA </td>
+					<td rowspan = “1” scope="row">RDC TI </td>
+					<td rowspan = “1” scope="row">LABR </td>
+				</tr>
+				<tr>
+					<td colspan="6">&nbsp</td>
+				</tr>
+				<tr>	
+					<td rowspan = “1” scope="row"><strong>16:00-16:55 </strong></td>
+					<td rowspan = “1” scope="row">LABR </td>
+					<td rowspan = “1” scope="row"> </td>
+					<td rowspan = “1” scope="row"> </td>
+					<td rowspan = “1” scope="row">LABR </td>
+					<td rowspan = “1” scope="row"> </td>
+				</tr>
+				<tr>
+					<td rowspan = “1” scope="row"><strong>17:00-17:55 </strong></td>
+					<td rowspan = “1” scope="row">LABR </td>
+					<td rowspan = “1” scope="row"> </td>
+					<td rowspan = “1” scope="row"> </td>
+					<td rowspan = “1” scope="row">LABR </td>
+					<td rowspan = “1” scope="row"> </td>
+				</tr>
+				<tr>
+					<td rowspan = “1” scope="row"><strong>18:00-18:55 </strong></td>
+					<td rowspan = “1” scope="row">LABR </td>
+					<td rowspan = “1” scope="row"> </td>
+					<td rowspan = “1” scope="row"> </td>
+					<td rowspan = “1” scope="row">LABR </td>
+					<td rowspan = “1” scope="row"> </td>
+				</tr>		
+			</table>
+		</div>
+		<div>
+			<br>
+			<details><summary><em>Leyenda: </em>
+				<ul>
+					<li><strong>DSI:</strong> Desarrollo de Sistemas Informáticos</li>
+					<li><strong>SSI:</strong> Seguridad en Sistemas Informáticos</li>
+					<li><strong>UYA:</strong> Usabilidad y Accesibilidad </li>
+					<li><strong>RDC TI:</strong> Redes de Computadores en Tecnologías de la Información </li>
+					<li><strong>LABR:</strong> Laboratorio de Redes en Tecnologías de la Información </li>
+				</ul>
+				<br>
+				<em>Fuente: <a href=" https://docs.google.com/document/d/1XHFUAiuECAEAPTZvdsn8aJTCAV3jRovC8Px24HgcfyQ/edit">Horario Tercer Año - Itinerario de Tecnologías de la Información</a></em>
+			</summary></details>
+		</div>
+		<div>
+			<table width = "800" border="1" bgcolor="#dbbeec">
+				<caption> <h2>Calendario de planificación</h2> </caption>
+				<tr>	
+					<td rowspan = “1” scope="row" headers="Horario"><strong >Horario<strong></td>
+					<td rowspan = “1” scope="row"><strong>Lunes</strong></td>
+					<td rowspan = “1” scope="row"><strong>Martes</strong></td>
+					<td rowspan = “1” scope="row"><strong>Miércoles</strong></td>
+					<td rowspan = “1” scope="row"><strong>Jueves</strong></td>
+					<td rowspan = “1” scope="row"><strong>Viernes</strong></td>
+					<td rowspan = “1” scope="row"><strong>Sábado</strong></td>
+					<td rowspan = “1” scope="row"><strong>Domingo</strong></td>
+				</tr>
+				<tr>
+					<td rowspan = “1” scope="row"><strong>9:30-10:25</strong></td>
+					<td rowspan = “1” scope="row">Clases</td>
+					<td rowspan = “1” scope="row">Clases</td>
+					<td rowspan = “1” scope="row"><strong>Libre</strong></td>
+					<td rowspan = “1” scope="row">Clases</td>
+					<td rowspan = “1” scope="row">Clases</td>
+					<td rowspan = “1” scope="row"><strong>Libre</strong></td>
+					<td rowspan = “1” scope="row"><strong>Libre</strong></td>
+				</tr>
+				<tr>
+					<td rowspan = “1” scope="row"><strong>10:30-11:25</strong></td>
+					<td rowspan = “1” scope="row">Clases</td>
+					<td rowspan = “1” scope="row">Clases</td>
+					<td rowspan = “1” scope="row"><strong>Libre</strong></td>
+					<td rowspan = “1” scope="row">Clases</td>
+					<td rowspan = “1” scope="row">Clases</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+				</tr>
+				<tr>
+					<td rowspan = “1” scope="row"><strong>11:30-12:25</strong></td>
+					<td rowspan = “1” scope="row"><strong>Libre</strong></td>
+					<td rowspan = “1” scope="row"><strong>Libre</strong></td>
+					<td rowspan = “1” scope="row"><strong>Libre</strong></td>
+					<td rowspan = “1” scope="row"><strong>Libre</strong></td>
+					<td rowspan = “1” scope="row"><strong>Libre</strong></td>
+					<td rowspan = “1” scope="row"><strong>Libre</strong></td>
+					<td rowspan = “1” scope="row"><strong>Libre</strong></td>
+				</tr>
+				<tr>
+					<td rowspan = “1” scope="row"><strong>12:30-13:00</strong></td>
+					<td rowspan = “1” scope="row">Clases</td>
+					<td rowspan = “1” scope="row">Clases</td>
+					<td rowspan = “1” scope="row">Clases</td>
+					<td rowspan = “1” scope="row">Clases</td>
+					<td rowspan = “1” scope="row">Clases</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+				</tr>
+				<tr>
+					<td rowspan = “1” scope="row"><strong>13:00-13:55</strong></td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+				</tr>
+				<tr>
+					<td colspan="8">&nbsp</td>
+				</tr>
+				<tr>
+					<td rowspan = “1” scope="row"><strong>16:00-16:55</strong></td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Clases</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row"><strong>Libre</strong></td>
+					<td rowspan = “1” scope="row"><strong>Libre</strong></td>
+				</tr>
+				<tr>
+					<td rowspan = “1” scope="row"><strong>17:00-17:55</strong></td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Clases</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+				</tr>
+				<tr>
+					<td rowspan = “1” scope="row"><strong>18:00-18:55</strong></td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Clases</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+				</tr>
+				<tr>
+					<td rowspan = “1” scope="row"><strong>19:00-19:50</strong></td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+				</tr>
+				<tr>
+					<td rowspan = “1” scope="row"><strong>20:00-20:50</strong></td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+					<td rowspan = “1” scope="row">Estudiar</td>
+				</tr>
+			</table>
+		</div>
+		<div>
+			<h2>Controlador de estado de tareas</h2>
+			<p>Las tareas pendientes ordenadas por prioriadad son:</p>
+			<ol>
+				<li> <strong>Usabilidad y Accesibilidad</strong>
+					<ul>
+						<li>Legislación Accesibilidad</li>
+						<em>&nbsp&nbspFecha de entrega: <time datetime="2021-03-10T00:00:00">miércoles, 10 de marzo de 2021, 00:00</time></em>
+					</ul>
+				</li> <li><strong>Seguridad en Sistemas Informáticos</strong>
+					<ul>
+						<li>Práctica 2: Entrega RC4</li>
+						<em>&nbsp&nbspFecha de entrega: <time datetime="2021-03-09T09:30:00">martes, 9 de marzo de 2021, 09:30</time></em>
+						<li>Práctica 3: Entrega ChaCha20</li>
+						<em>&nbsp&nbspFecha de entrega: <time datetime="2021-03-16T09:30:00">martes, 16 de marzo de 2021, 09:30</time></em>
+					</ul>
+				</li> <li><strong>Desarrollo de Sistemas Informáticos</strong>
+					<ul>
+						<li>Práctica 4: Arrays, tuplas y enumerados</li>
+						<em>&nbsp&nbspFecha de entrega: <time datetime="2021-03-14T23:59:00">domingo, 14 de marzo de 2021, 23:59</time></em>
+					</ul>
+				</li>
+			</ol>
+		</div>
+		<div>
+			<table border="1" bgcolor="#dbbeec">
+				<caption> <h2>Calificaciones</h2> </caption>
+				<tr>
+					<td colspan="2" rowspan="1" scope="row" headers="Título columnas"><strong>Asignatura</strong></td><td><strong>Calificación</strong></td>
+				</tr>
+				<tr>
+					<td colspan="2" rowspan="1" scope="row" headers="UYA">Usabilidad y Accesibilidad</td> <td>-</td>
+				</tr>
+				<tr>
+					<td colspan="2" rowspan = “1” scope="row" headers="SIPC">Sistemas de Interacción Persona-Computador</td> <td>10</td>
+				</tr>
+				<tr>
+					<td colspan="2" rowspan = “1” scope="row" headers="SSI">Seguridad en Sistema Informáticos</td><td>-</td>
+				</tr>
+				<tr>
+					<td colspan="2" rowspan = “1” scope="row" headers="RDC TI">Redes de Computadores en Tecnologías de la Información</td><td>-</td>
+				</tr>
+				<tr>
+					<td colspan="2" rowspan = “1” scope="row" headers="LPP">Lenguajes y Paradigmas de Programación</td><td>7</td>
+				</tr>
+				<tr>
+					<td colspan="2" rowspan = “1” scope="row" headers="LABR">Laboratorio de Redes en Tecnologías de la Información</td><td>-</td>
+				</tr>
+				<tr>
+					<td colspan="2" rowspan = “1” scope="row" headers="IA">Inteligencia Artificial</td><td>9</td>
+				</tr>
+				<tr>
+					<td colspan="2" rowspan = “1” scope="row" headers="GPI">Gestión de Proyectos Informáticos</td><td>10</td>
+				</tr>
+				<tr>
+					<td colspan="2" rowspan = “1” scope="row" headers="DSI">Desarrollo de Sistemas Informáticos</td><td>-</td>
+				</tr>
+				<tr>
+					<td colspan="2" rowspan = “1” scope="row" headers="BBDD">Bases de Datos</td><td>8</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div>
+			<footer>
+				<div>
+					<p><strong>Contacta con los autores de la página:</strong><br>
+						<address>
+							<strong>&nbsp&nbspDaniel Álvarez Medina</strong> <a href="alu0101216126@ull.edu.es">alu0101216126@ull.edu.es</a><br>
+							<strong>&nbsp&nbspDayana Armas Alonso</strong> <a href="alu0101228020@ull.edu.es">alu0101228020@ull.edu.es</a><br>
+							<strong>&nbsp&nbspAlberto Mendoza Rodríguez</strong> <a href="alu0101217741@ull.edu.es">alu0101217741@ull.edu.es</a><br>
+							<strong>&nbsp&nbspYago Pérez Molanes</strong> <a href="alu0101254678@ull.edu.es">alu0101254678@ull.edu.es</a>
+						</address>
+					</p>
+				</div>
+			</footer>
+		</div>
+	</div>
+    </body>
+</html> 
