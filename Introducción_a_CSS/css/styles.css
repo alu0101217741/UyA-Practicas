@@ -1,0 +1,150 @@
+body { 
+    width: 770px;
+    font-family: Arial;
+    font-size: 1.5em;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.main {
+    width: 770px;
+}
+.navigation {
+    padding: 7px;
+    border: 1px solid black;
+    display: flex;   
+    height: 100px;
+    background-image: url(../imagenes/cabecera.png); 
+    background-position: right;
+    background-size: cover;
+}
+
+ul.header {
+    margin-top: 13px;
+    list-style-type: none;
+    padding: 10px;
+}
+  
+li.header {
+    display: inline;
+    float: left;
+}
+
+a.link {
+    display: block;
+    color:rgb(23, 177, 216);
+    text-align: center;
+    text-decoration: none;   
+}
+
+a.table {
+    display: block;
+    color: green;
+    text-align: center;
+    text-decoration: none;   
+}
+
+a.link:hover, a.header:hover, a.table:hover {
+    color: rgb(255, 17, 0)
+}
+
+a.header {
+    display: block;
+    color:rgb(23, 177, 216);
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;   
+}
+
+a:visited {
+    color: rgb(0, 119, 255);
+}
+
+.left{
+    background-color: rgb(228, 210, 235);
+    width: 350px;
+    height: 700px;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.middle {
+    background-color: rgb(203, 176, 214);
+    width: 290px;
+    height: 700px;
+    position: relative;
+    float:left;
+    align-content: center;
+}
+
+.right {
+    background-color: rgb(228, 210, 235);
+    width:  130px;
+    height: 700px;
+    position: static;
+    float:right;
+    text-align: center;
+}
+
+.paragraph {
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+table, td {
+    border: 1px solid black;
+    margin: .25em;
+  }
+
+
+img {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+nav a{
+    text-decoration:none;
+    font-size:14px;
+}
+
+nav li{
+    margin-bottom: 0.7em;
+    padding: 0.3em;
+    display:inline-block;
+    width:150px;
+    height:30px;
+    background-color:#000;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+    position: relative;
+    left: 15px;
+}
+            
+nav li:hover{
+    background-color:#fff;
+    color:#000;
+}
+            
+nav li>ul{
+    display:none;
+}
+
+nav li:hover>ul{
+    display:block;
+    position:absolute;
+    left:-70px;
+    top:40px;
+}
+
+footer {
+    border: 1px solid black;
+    background-image: url(../imagenes/ull.png);
+    height: 100px;
+    width: 770px;
+    z-index: -1;
+}
