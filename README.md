@@ -19,3 +19,4 @@ Este repositorio contiene las prácticas realizadas en la asignatura de Usabilid
 * [Práctica Uso del navegador para el desarrollo web](https://github.com/alu0101217741/UyA-Practicas/tree/main/Uso%20del%20navegador%20para%20el%20desarrollo%20web)
 * [Práctica Introducción a HTML](https://github.com/alu0101217741/UyA-Practicas/blob/main/Introducci%C3%B3n%20a%20HTML/index.html)
 * [Introducción a CSS](https://github.com/alu0101217741/UyA-Practicas/tree/main/Introducci%C3%B3n_a_CSS)
+* [Materialize](https://github.com/alu0101217741/UyA-Practicas/tree/main/Materialize)
