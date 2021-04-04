@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+	<html>
+    	<head>
+			<title>Práctica javascript</title>
+			<meta charset="UTF-8">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<script type="text/javascript" src="functions.js"></script>
+
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    	</head>
+		<body>
+			<div>
+				<h1>Práctica: Introducción a JavaScript</h1>
+			</div>
+
+			<!-- Ejercicio 2: Define una función en javascript en la que se inserte un texto en una tarjeta que el usuario introduce por el teclado.-->
+			<div>
+				<h2>Ejercicio 2</h2>
+				<div class="row">
+					<form class="col s12">
+					<div class="row">
+						<div class="input-field col s12">
+							<input placeholder="Texto a mostrar" id="user_text" type="text" class="validate">
+							<label for="user_text">Introduce el texto</label>
+						</div>
+					</div>
+					</form>
+				</div>
+				<div class="row">
+					<div class="col s12 m6">
+						<div class="card blue-grey darken-1">
+							<div class="card-content white-text">
+								<span id="print_text" class="card-title">Resultado</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--Ejercicio 3: Define una función javascript que calcule la edad de los usuarios, y su sueldo. Debes considerar un json de ejmplo con los datos, en el que se registra para cada usuario su dni, año de nacimiento, fecha de ingreso en la empresa, plus de productividad en %, plus de antigüedad bruto (0,1% por cada tres años trabajado) y el sueldo base.-->
+			<div>
+				<h2>Ejercicio 3</h2>
+				<div class="row">
+					<div class="col s12 m6">
+						<div class="card blue-grey darken-1">
+							<div class="card-content white-text">
+								<span id="print_age" class="card-title">Resultado</span>
+								<span id="print_salary" class="card-title">Resultado</span>
+							</div>
+						</div>
+						<p><b>¿Por qué el JSON debe de estar en el propio código?</b></p>
+						<p>JSON es un formato de intercambio de información con el que se pueden representar arrays y objetos. Hemos incluido el JSON en el propio código para que sea más sencillo trabajar con los diferentes pares clave-valor del objeto, así como evitar diferentes problemas.</p>
+					</div>
+				</div>
+				
+				<script>
+					var user = {
+						name: "pedro",
+						dni: "12345678E",
+						year: 1999,
+						dateIngress: 2017,
+						plusProductivity: 5,
+						plusSeniority: 0.1,
+						baseSalary: 1100,
+					}
+					$(document).ready(function getData() {
+							var age =  (new Date).getFullYear() - user.year;
+							$("#print_age").text("Edad: " + age); 
+
+							var plusSalary = ((user.plusProductivity * user.baseSalary) / 100) + ((((new Date).getFullYear() - user.dateIngress) / 3) * user.plusSeniority * user.baseSalary);
+							$("#print_salary").text("Salario: " + (plusSalary + user.baseSalary));
+					}); 
+				</script>
+			</div>
+		</body>
+	</html>
