@@ -1,0 +1,54 @@
+body {
+  font-family: Georgia;
+}
+
+nav ul a, nav .brand-logo {
+  color: #5c068c;
+}
+
+.imagen {
+  background-color: #acebdb;
+  background-size: cover;
+}
+
+.card.horizontal.small p {
+  text-align: center;
+  font-size: large;
+  margin: 2em;
+}
+
+.container li {
+  font-size: large;
+}
+
+.icon-block h2 {
+  font-weight: bolder;
+  color: #68417c;
+}
+
+.icon-block h1 {
+  margin-top: 0.1em;
+  margin-right: 0.15em;
+  color: rgb(0, 0, 0);
+}
+.icon-block h5 {
+  font-weight: bolder;
+  color: #5c068c;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+::placeholder { 
+  color: rgb(126, 126, 126); 
+  font-size: larger;
+}
+
+button {
+ width: 170px;
+}
+
+p {
+  font-size: 18px;
+}
